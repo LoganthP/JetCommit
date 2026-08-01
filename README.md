@@ -10,6 +10,8 @@
 ![Automation](https://img.shields.io/badge/Automation-GitHub_Actions-success?style=for-the-badge&logo=githubactions)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+</div>
+
 ## ⚡ Turn Your GitHub Contribution Graph into an Animated Jet Heatmap
 
 Transform your ordinary GitHub contribution graph into a **beautiful animated Jet Heatmap** that brings your profile to life.
@@ -17,8 +19,6 @@ Powered by **Node.js**, **SVG animations**, and **GitHub Actions**, this project
 Whether you're a developer, student, open-source contributor, or portfolio enthusiast, **GitHub Jet Heatmap** adds a modern and professional touch to your GitHub profile.
 
 <br>
-
-</div>
 
 <p align="center">
   <img
