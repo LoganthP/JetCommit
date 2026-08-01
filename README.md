@@ -22,7 +22,7 @@ Whether you're a developer, student, open-source contributor, or portfolio enthu
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/LoganthP/LoganthP/main/dist/github-jet.svg"
+    src="https://raw.githubusercontent.com/LoganthP/JetCommit/main/dist/github-jet.svg"
     width="100%"
     alt="Jet Heatmap"
   />
