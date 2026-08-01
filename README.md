@@ -21,11 +21,20 @@ Whether you're a developer, student, open-source contributor, or portfolio enthu
 </div>
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/LoganthP/LoganthP/main/github-jet.svg"
-    width="100%"
-    alt="GitHub Jet Heatmap"
-  />
+<picture>
+
+<source media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/dark.svg">
+
+<source media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/light.svg">
+
+<img
+alt="GitHub Jet Heatmap"
+src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/dark.svg"
+width="100%">
+
+</picture>
 </p>
 
 ---
