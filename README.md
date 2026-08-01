@@ -65,8 +65,8 @@ GitHub-Jet-Heatmap/
 │       └── jet-heatmap.yml          # GitHub Actions workflow for automatic updates
 │
 ├── dist/                            # Generated SVG output
-│   ├── dark.svg
-│   └── light.svg
+│   ├── github-jet.svg
+│ 
 │
 ├── ascii_to_svg.py                  # Converts ASCII contribution data into SVG
 ├── generate.mjs                     # Main script that generates the animated Jet Heatmap
