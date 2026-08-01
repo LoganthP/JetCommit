@@ -265,7 +265,155 @@ git add .
 git commit -m "Add GitHub Jet Heatmap"
 git push
 ```
+---
 
+# 🤖 Configure GitHub Actions
+
+The repository includes a preconfigured GitHub Actions workflow that automatically regenerates your Jet Heatmap on a scheduled basis.
+
+## Step 1 — Open the Actions Tab
+
+Navigate to your repository and click the **Actions** tab.
+
+```
+Repository
+    └── Actions
+```
+
+If prompted, click **I understand my workflows, go ahead and enable them**.
+
+---
+
+## Step 2 — Enable Workflow Permissions
+
+Open
+
+```
+Settings
+    ↓
+Actions
+    ↓
+General
+```
+
+Scroll to **Workflow permissions**.
+
+Select
+
+```
+✅ Read and write permissions
+```
+
+Click
+
+```
+Save
+```
+
+> **⚠️ Important**
+>
+> Without enabling **Read and write permissions**, GitHub Actions cannot commit the generated SVG back to your repository.
+
+---
+
+## Step 3 — Run the Workflow
+
+Open
+
+```
+Actions
+```
+
+Select
+
+```
+Update Jet Heatmap SVG
+```
+
+Click
+
+```
+Run workflow
+```
+
+Choose the **main** branch and click **Run workflow**.
+
+Wait for approximately **30–60 seconds**.
+
+---
+
+## Step 4 — Verify the Generated Files
+
+Once the workflow completes successfully, the generated SVG files will appear inside the `dist` directory.
+
+```
+dist/
+├── dark.svg
+└── light.svg
+```
+
+---
+
+## Step 5 — Confirm the Raw SVG URL
+
+Open the generated SVG file and click **Raw**.
+
+The URL should look similar to:
+
+```text
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/dist/dark.svg
+```
+
+or
+
+```text
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/dist/light.svg
+```
+
+If the SVG opens successfully in your browser, the generation process is working correctly.
+
+---
+
+## Step 6 — Embed the SVG in Your Profile README
+
+Add the following snippet to your GitHub Profile README.
+
+```html
+<p align="center">
+<picture>
+
+<source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/dist/dark.svg">
+
+<source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/dist/light.svg">
+
+<img
+    src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/dist/dark.svg"
+    width="100%"
+    alt="GitHub Jet Heatmap">
+
+</picture>
+</p>
+```
+
+Replace:
+
+- `YOUR_USERNAME`
+- `YOUR_REPOSITORY`
+
+with your own GitHub username and repository name.
+
+---
+
+## ✅ Success
+
+After pushing your changes, your GitHub Profile README will automatically display the animated **Jet Heatmap**.
+Whenever the GitHub Actions workflow runs, the SVG files will be regenerated automatically, ensuring your profile always reflects your latest GitHub contributions.
+
+---
 ## 🛩️ Step 9: Add the Animation to Your README
 If your project generates github-jet.svg
 
@@ -283,7 +431,7 @@ Replace YOUR_USERNAME with your GitHub username.
 
 Example:
 ```bash
-https://raw.githubusercontent.com/LoganthP/LoganthP/main/github-jet.svg
+https://raw.githubusercontent.com/LoganthP/JetCommit/main/dist/github-jet.svg
 ```
 
 If your project generates dark.svg and light.svg
@@ -307,6 +455,7 @@ alt="GitHub Jet Heatmap">
 </p>
 ```
 ---
+
 ## 🎉 Final Result
 
 After committing and pushing your changes, visit your GitHub profile.
