@@ -4,13 +4,11 @@
 
 ### Generate a Beautiful Animated GitHub Contribution Heatmap for Your Profile
 
-<img src="https://readme-typing-svg.demolab.com?...">
-
-![GitHub](...)
-![Node.js](...)
-![SVG](...)
-![License](...)
-![Workflow](...)
+![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![SVG](https://img.shields.io/badge/Output-Animated_SVG-blue?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Automation-GitHub_Actions-success?style=for-the-badge&logo=githubactions)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## ⚡ Turn Your GitHub Contribution Graph into an Animated Jet Heatmap
 
