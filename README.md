@@ -460,18 +460,21 @@ alt="GitHub Jet Heatmap">
 
 ```mermaid
 flowchart TD
-    A[🛠️ Install Git & Node.js] --> B[📥 Clone Repository]
-    B --> C[📦 Run npm install]
-    C --> D[🔑 Create GitHub Personal Access Token]
-    D --> E[🌍 Configure GH_USERNAME & GH_TOKEN]
-    E --> F[⚡ Run node generate.mjs]
-    F --> G[🎨 Generate dark.svg & light.svg]
-    G --> H[📂 Copy SVG Files to Profile Repository]
-    H --> I[➕ git add .]
-    I --> J[💾 git commit]
-    J --> K[🚀 git push]
-    K --> L[📄 Embed SVG in GitHub Profile README]
-    L --> M[🛩️ Animated GitHub Jet Heatmap Live!]
+
+    A[🛠️ Install Git & Node.js] --> B[📥 Clone the Repository]
+    B --> C[📦 Install Dependencies<br/>npm install]
+    C --> D[🔑 Create a GitHub Personal Access Token]
+    D --> E[🌍 Configure Environment Variables<br/>GH_USERNAME & GH_TOKEN]
+    E --> F[⚡ Generate the Jet Heatmap<br/>node generate.mjs]
+    F --> G[🎨 Generate SVG Files<br/>dark.svg & light.svg]
+    G --> H[📂 Verify Generated Files]
+    H --> I[📤 Commit & Push Changes]
+    I --> J[🤖 Enable GitHub Actions Workflow]
+    J --> K[🔐 Grant Read & Write Permissions]
+    K --> L[▶️ Run the Workflow]
+    L --> M[🔄 Automatic SVG Regeneration]
+    M --> N[📄 Embed SVG in GitHub Profile README]
+    N --> O[🛩️ Live Animated GitHub Jet Heatmap]
 ```
 ---
 ## 🎉 You're All Set!
