@@ -58,7 +58,7 @@ Whether you're building a portfolio, showcasing open-source activity, or simply 
 # 🏗️ Project Architecture
 
 ```text
-GitHub-Jet-Heatmap/
+JetCommit/
 │
 ├── .github/
 │   └── workflows/
@@ -164,11 +164,11 @@ Before you begin, ensure you have the following installed:
 
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/LoganthP/github-jet-heatmap.git
+git clone https://github.com/LoganthP/jetcommit.git
 ```
 Then navigate into the directory:
 ```bash
-cd github-jet-heatmap
+cd jetcommit
 ```
 
 ## 📦 Step 2: Install Dependencies
